@@ -1,0 +1,52 @@
+---
+import "../styles/global.css";
+import Baselayout from "../layouts/BaseLayout.astro"
+---
+<style>
+  a{
+    padding: 1rem;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+</style>
+
+<Baselayout title="Kenay Dev">
+  <header>
+    
+    
+    <div class="grid grid-cols-2 items-center gap-1">
+      <div>
+        <a href="#Home" class="text-3xl font-bold tracking-wide">Kenay Dev</a>
+      </div>
+      <div class="text-right">
+        <a href="#Home">Home</a>
+        <a href="#Skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#Stats">Stats</a>
+        <a href="#Contact">Contact</a>
+        <a href="#Message">Message</a>
+      </div>
+    </div>
+  </header>
+
+  <body>
+      
+    <section id="Home">
+      <div class="items-center justify-center flex flex-col">
+        <h1 class="text-5xl font-bold">KENAY PEREZ</h1>
+        <h2 class="opacity-80">Frontend Developer</h2>
+        <p>i'm a Frontend developer from Mexico, i'm passionate about web develoment and i love learn new things</p> 
+      </div>
+  
+      
+    </section>
+    
+    <section id="Skills"></section>
+    <section id="Projects"></section>
+    <section id="Stats"></section>
+    <section id="Contact"></section>
+    <section id="Message"></section>
+
+  </body>
+</Baselayout> 
