@@ -7,6 +7,7 @@ import Baselayout from "../layouts/BaseLayout.astro"
   <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
           
 </head>
+
 <style>
   a{
     padding: 1rem;
@@ -38,10 +39,10 @@ import Baselayout from "../layouts/BaseLayout.astro"
   <body>
       
     <section id="Home" >
+      
       <div class="items-center justify-center flex flex-col mb-6">
         <h1 class="text-6xl font-bold">KENAY PEREZ</h1>
-        <h2 class="opacity-80">Frontend Developer</h2>
-        
+        <h2 class="opacity-80">Frontend Developer</h2>  
       </div>
       
       <div class="w-full items-center justify-center flex flex-col g-2"></div>
@@ -52,18 +53,19 @@ import Baselayout from "../layouts/BaseLayout.astro"
           </div>
           
           <div class="items-center text-2xl justify-end w-4/5 flex">
-            <a href="https://github.com/https://github.com/K3N4Y"        class="hover:scale-110"><i class="devicon-github-original"></i></a>
+            <a href="https://github.com/K3N4Y"        class="hover:scale-110"><i class="devicon-github-original"></i></a>
             <a href="https://www.linkedin.com/in/kenay-perez-6a541127b/" class="hover:scale-110"><i class="devicon-linkedin-plain"></i></a>
             <a href="https://x.com/Mireytilin69"                         class="hover:scale-110"><i class="devicon-twitter-original"></i></a>
           </div>
 
       </div>
          
-      
     </section>
     
     <section id="Skills">
+      
       <h1 class="color-white text-4xl font-bold flex items-center justify-center">Skills</h1>
+      
       <div class="flex items-center justify-center p-5 gap-5 text-6xl">
       
         <i class="devicon-astro-plain"></i>
@@ -72,8 +74,10 @@ import Baselayout from "../layouts/BaseLayout.astro"
         <i class="devicon-javascript-plain"></i>
         <i class="devicon-html5-plain-wordmark"></i>
         <i class="devicon-css3-plain-wordmark"></i>
-          
+        <i class="devicon-java-plain"></i>
+                    
       </div>
+      
     </section>
     
     <section id="Projects">
@@ -89,16 +93,38 @@ import Baselayout from "../layouts/BaseLayout.astro"
           
           <h2 class="text-2xl font-bold justify-center items-center">Calculadora</h2>
           <img src="../assets/imgs/calc.png" alt="Calculadora">
-          <div class="flex gap-2 p-2 text-xl">
+          
+          <div class="flex flex-col gap-4">
+            <div class="flex gap-2 p-2 text-xl">
             
-            <i class="devicon-javascript-plain"></i>
-            <i class="devicon-html5-plain-wordmark"></i>
-            <i class="devicon-tailwindcss-original"></i>
+              <i class="devicon-javascript-plain"></i>
+              <i class="devicon-html5-plain-wordmark"></i>
+              <i class="devicon-tailwindcss-original"></i>
 
+            </div>
+            <p class="p-2">A simple calculator made with Astro and TailwindCSS</p>
+          
           </div>
+          
+         
         </div>
         
-        <div class="card"></div>
+        
+        
+        
+        <div class="card">
+            
+          <h2 class="text-2xl font-bold justify-center items-center">Java FlashCards</h2>
+          <img src="../assets/imgs/javaflashcards.png" alt="Java FlashCards" class="h-[225px]">
+          <div class="flex flex-col gap-4">
+            <div class="flex gap-2 p-2 text-xl">
+            
+              <i class="devicon-java-plain"></i>
+              
+
+            </div>
+            <p class="p-2">A simple flashcard app for learning Java concepts.</p>
+        </div>
         <div class="card"></div>
       </div>
     </body>
